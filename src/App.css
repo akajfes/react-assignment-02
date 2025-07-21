@@ -1,0 +1,87 @@
+#root {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: clamp(2.25rem, 1.3636rem + 4.4318vw, 4.6875rem);
+  line-height: 0;
+}
+
+.card {
+  padding: 2em;
+}
+
+.lottery-container {
+  padding: 2rem;
+  text-align: center;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  background-color: rgb(26, 26, 28, 60%);
+  border-radius: 8px;
+}
+
+.input-display{
+  background-color: rgb(26, 26, 37);
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.number-dollar-inputs{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1em;
+}
+
+.number-buttons-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.selected {
+  background-color: #283b98;
+  color: white;
+}
+
+.dollar-buttons-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr); 
+  gap: 1em;
+}
+
+.dollar-buttons-grid button{
+  background-color: crimson;
+}
+
+.number-pad-actions button {
+  width: 100%;
+}
+
+.number-pad-actions{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;
+  gap: 1em;
+}
+
+.number-pad-container{
+  width: 80%;
+}
+
+.number-pad-actions button {
+  background-color: rgb(85, 85, 85);
+}
+
+.number-pad-actions .cash-btn{
+  background-color: rgb(105, 183, 27);
+}
